@@ -1,0 +1,22 @@
+//
+//  MainPCH.pch
+//  LeftSlidePractice
+//
+//  Created by anyuan on 16/7/21.
+//  Copyright © 2016年 anyuan. All rights reserved.
+//
+
+#ifndef MainPCH_pch
+#define MainPCH_pch
+#import "Masonry.h"
+
+//颜色
+#define COLOR(R,G,B) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:1.0]
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define defRandomColor COLOR(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MainPCH_pch */
